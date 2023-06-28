@@ -20,7 +20,7 @@ export default function LoginScreen(){
     }
     else{
 
-      alert("enter form...")
+      alert("Enter Form Details...")
     
     }
    

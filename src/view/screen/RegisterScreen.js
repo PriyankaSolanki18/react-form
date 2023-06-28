@@ -22,7 +22,7 @@ export default function RegisterScreen(){
     }
     else{
 
-      alert("enter form...")
+      alert("Enter Form Details...")
     
     }
   }
