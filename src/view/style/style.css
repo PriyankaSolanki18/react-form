@@ -2,6 +2,9 @@
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(15, 71, 53);
+    background-color: aquamarine;
+    margin: 0;
+    padding: 10px;
 }
 .register-main-div{
     width: 100%;
@@ -93,4 +96,61 @@
     padding: 50px;
     border-radius: 20%;
     margin: 1px;
+    padding: 10px;
+}
+.productshow{
+    width: 300px;
+    background-color: rgb(189, 233, 216);
+    margin: 20px;
+    border: 1px solid rgb(22, 137, 130);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.product-div{
+    width: 100%;
+    display: flex;
+}
+.pdetails{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(189, 233, 216);
+    display: inline-flex;
+    margin-top: 10px;
+}
+.pdetails-img{
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.pdetails-img img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+}
+.pdetails-text{
+    width: 25%;
+    height: 100%;
+    font-weight: bold;
+    padding: 20px;
+}
+.pdetails-text button{
+    gap: 10px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 6px;
+}
+.pdetails-pay{
+    padding: 20px;
+    width: 25%;
+    height: 100%;
+    font-weight: bold;
+}
+.pdetails-pay button{
+    margin: 20px;
+    margin-top: 4px;
+    margin-left: 0;
+    border-radius: 6px;
 }

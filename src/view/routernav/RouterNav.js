@@ -5,6 +5,7 @@ import LoginScreen from "../screen/LoginScreen";
 import {menu} from '../data/data'
 import Profile from "../screen/Profile";
 import { useState } from "react";
+import Productdetails from "../screen/Productdetails";
 export default function RouterNav(){
 const [user,setUser] = useState(localStorage.getItem("user"))
 console.log(menu);
@@ -36,6 +37,7 @@ function logout(){
         <Route  path="/register" Component={RegisterScreen}/>
         <Route  path="/login" Component={LoginScreen}/>
         <Route  path="/profile" Component={Profile}/>
+        <Route path="/details" Component={Productdetails}/>
         <Route  path="*" Component={HomeScreen}/>
         </Routes>
       </>
