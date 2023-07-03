@@ -15,7 +15,7 @@ console.log(data);
                 <img src={data.image} />
             </div>    
             <div className="pdetails-text">
-                <p>{data.productname}</p>
+                <p className="nameProd">{data.productname}</p>
                 <p>Rs.{data.rate}/-</p>
                 <button>
                 <span>-</span>
@@ -27,7 +27,7 @@ console.log(data);
             </div>    
 
             <div className="pdetails-pay">
-                <p>Total pay: </p>
+                <p className="namePay">Total pay: </p>
                 <button onClick={()=>nav('/cart',{state:""})}>Add To Cart</button>
                 <button onClick={()=>nav('/payment',{state:""})}>Buy Now</button>
             </div>    

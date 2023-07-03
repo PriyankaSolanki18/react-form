@@ -111,7 +111,10 @@
 }
 .product-div{
     width: 100%;
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
 }
 .pdetails{
     width: 100%;
@@ -119,6 +122,12 @@
     background-color: rgb(189, 233, 216);
     display: inline-flex;
     margin-top: 10px;
+}
+.nameProd{
+    margin-top: 100px;
+}
+.namePay{
+    margin-top: 100px;
 }
 .pdetails-img{
     width: 40%;
@@ -133,7 +142,7 @@
     border-radius: 20px;
 }
 .pdetails-text{
-    width: 25%;
+    width: 20%;
     height: 100%;
     font-weight: bold;
     padding: 20px;
@@ -146,6 +155,9 @@
     background-color: rgb(43, 141, 117);
     height: 25px;
     width: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 .pdetails-pay{
     padding: 20px;
@@ -160,7 +172,18 @@
     border-radius: 6px;
     background-color: rgb(43, 141, 117);
     height: 25px;
-    width: 100px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btnLogout{
+    border-radius: 6px;
+    background-color: rgb(43, 141, 117);
+    border-color: rgb(13, 85, 61);
+    height: 25px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 15px;
 }
 .span-qty{
     text-align: center;

@@ -27,7 +27,7 @@ function logout(){
        :
        <>
         <Link to="/profile" className="nav-link">Profile</Link>
-       <button onClick={logout}>Logout</button>
+       <button className="btnLogout" onClick={logout}>Logout</button>
         </>
        }
         </div>
