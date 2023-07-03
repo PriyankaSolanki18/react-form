@@ -20,7 +20,7 @@ console.log(data);
                 <button>
                 <span>-</span>
                 </button>
-                <span> 1 </span>
+                <span className="span-qty">1</span>
                 <button>
                 <span>+</span>
                 </button>

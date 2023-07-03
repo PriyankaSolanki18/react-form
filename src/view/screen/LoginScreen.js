@@ -47,15 +47,15 @@ nav("/register")
      <div className="register-main-div">
       <div className="register-main-div-mid">
         <div className="register-main-div-info">
-          <h2>User Login..</h2>
+          <h2>User Login</h2>
         </div>  
           
         <div className="register-main-div-email">
-          <h4>Enter Email.</h4>
+          <h4>Enter Email : </h4>
           <input type="text"  value={email} onChange={user=>setEmail(user.target.value)} placeholder="Enter email..." className="register-main-div-email-input"/>
         </div>   
         <div className="register-main-div-email">
-          <h4>Enter password.</h4>
+          <h4>Enter Password : </h4>
           <input type="password"  value={password} onChange={user=>setPassword(user.target.value)}  placeholder="Enter password..." className="register-main-div-email-input"/>
         </div>  
 

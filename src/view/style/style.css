@@ -5,6 +5,7 @@
     background-color: aquamarine;
     margin: 0;
     padding: 10px;
+    width: 100%;
 }
 .register-main-div{
     width: 100%;
@@ -83,6 +84,7 @@
     padding: 15px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: bold;
 }
 .navbar{
     width: 100%;
@@ -141,6 +143,9 @@
     margin: 10px;
     margin-left: 0;
     border-radius: 6px;
+    background-color: rgb(43, 141, 117);
+    height: 25px;
+    width: 40px;
 }
 .pdetails-pay{
     padding: 20px;
@@ -153,4 +158,11 @@
     margin-top: 4px;
     margin-left: 0;
     border-radius: 6px;
+    background-color: rgb(43, 141, 117);
+    height: 25px;
+    width: 100px;
+}
+.span-qty{
+    text-align: center;
+    margin-right: 10px;
 }
