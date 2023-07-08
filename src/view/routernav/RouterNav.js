@@ -6,6 +6,9 @@ import {menu} from '../data/data'
 import Profile from "../screen/Profile";
 import { useState } from "react";
 import Productdetails from "../screen/Productdetails";
+import Cart from "../screen/Cart";
+import Payment from "../screen/Payment";
+
 export default function RouterNav(){
 const [user,setUser] = useState(localStorage.getItem("user"))
 console.log(menu);
@@ -32,12 +35,14 @@ function logout(){
        }
         </div>
     <Routes>
-        <Route  path="/" Component={HomeScreen}/>
+    <Route  path="/" Component={HomeScreen}/>
         <Route  path="/home" Component={HomeScreen}/>
         <Route  path="/register" Component={RegisterScreen}/>
         <Route  path="/login" Component={LoginScreen}/>
         <Route  path="/profile" Component={Profile}/>
-        <Route path="/details" Component={Productdetails}/>
+        <Route  path="/details" Component={Productdetails}/>
+        <Route  path="/cart" Component={Cart}/>
+        <Route  path="/payment" Component={Payment}/>
         <Route  path="*" Component={HomeScreen}/>
         </Routes>
       </>

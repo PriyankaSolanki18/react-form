@@ -1,5 +1,5 @@
 export default function Payment(){
     return(
-        <h1>payment</h1>
+        <h1>Payment</h1>
     )
 }
